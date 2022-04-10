@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6B6085D1EA21BDB46E13F5 /* Pods_VK_Photo_VK_PhotoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56410C5CD0F113BD4831D12 /* Pods_VK_Photo_VK_PhotoUITests.framework */; };
+		3EA0CDD1F52FA8C94E7AFA42 /* Pods_VK_PhotoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F88646E15ADF1272AA12468 /* Pods_VK_PhotoTests.framework */; };
+		9ED5EADCEFE1DE85485FB5A7 /* Pods_VK_Photo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCA05CE66A2D2F9DE1BEECC /* Pods_VK_Photo.framework */; };
+		C3372CA52801FC5400C5C8EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3372CA42801FC5400C5C8EC /* GoogleService-Info.plist */; };
+		C3372CA72802167C00C5C8EC /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3372CA62802167C00C5C8EC /* DatabaseManager.swift */; };
+		C3372CA92802E55900C5C8EC /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3372CA82802E55900C5C8EC /* StorageManager.swift */; };
+		C3372CAB2802E5C500C5C8EC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3372CAA2802E5C500C5C8EC /* ProfileViewController.swift */; };
+		C3372CAD2802E68500C5C8EC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3372CAC2802E68500C5C8EC /* TabBarController.swift */; };
+		C3372CAF280318E200C5C8EC /* NewPhotoUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3372CAE280318E200C5C8EC /* NewPhotoUserCell.swift */; };
 		C39A6D1B27FCB1480043C47A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A6D1A27FCB1480043C47A /* AppDelegate.swift */; };
 		C39A6D1D27FCB1480043C47A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A6D1C27FCB1480043C47A /* SceneDelegate.swift */; };
-		C39A6D1F27FCB1480043C47A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A6D1E27FCB1480043C47A /* ViewController.swift */; };
+		C39A6D1F27FCB1480043C47A /* AllUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A6D1E27FCB1480043C47A /* AllUsersViewController.swift */; };
 		C39A6D2227FCB1480043C47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39A6D2027FCB1480043C47A /* Main.storyboard */; };
 		C39A6D2427FCB14B0043C47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39A6D2327FCB14B0043C47A /* Assets.xcassets */; };
 		C39A6D2727FCB14B0043C47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39A6D2527FCB14B0043C47A /* LaunchScreen.storyboard */; };
 		C39A6D3227FCB14B0043C47A /* VK_PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A6D3127FCB14B0043C47A /* VK_PhotoTests.swift */; };
 		C39A6D3D27FCB14B0043C47A /* VK_PhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A6D3C27FCB14B0043C47A /* VK_PhotoUITests.swift */; };
+		C3ECEA3027FEDFF900B3570E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ECEA2F27FEDFF900B3570E /* LoginViewController.swift */; };
+		C3ECEA3227FEE00B00B3570E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ECEA3127FEE00B00B3570E /* RegisterViewController.swift */; };
+		C3ECEA3427FF0A1F00B3570E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ECEA3327FF0A1F00B3570E /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F88646E15ADF1272AA12468 /* Pods_VK_PhotoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VK_PhotoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		605AFFBB141E1861AA70A2B4 /* Pods-VK-Photo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK-Photo.debug.xcconfig"; path = "Target Support Files/Pods-VK-Photo/Pods-VK-Photo.debug.xcconfig"; sourceTree = "<group>"; };
+		69EEDB04B6640B4513E126B4 /* Pods-VK-Photo-VK-PhotoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK-Photo-VK-PhotoUITests.release.xcconfig"; path = "Target Support Files/Pods-VK-Photo-VK-PhotoUITests/Pods-VK-Photo-VK-PhotoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89F19CF22CDA436206A821F2 /* Pods-VK-Photo-VK-PhotoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK-Photo-VK-PhotoUITests.debug.xcconfig"; path = "Target Support Files/Pods-VK-Photo-VK-PhotoUITests/Pods-VK-Photo-VK-PhotoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A439EE9C5B772EC253720FD5 /* Pods-VK-PhotoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK-PhotoTests.debug.xcconfig"; path = "Target Support Files/Pods-VK-PhotoTests/Pods-VK-PhotoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A56410C5CD0F113BD4831D12 /* Pods_VK_Photo_VK_PhotoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VK_Photo_VK_PhotoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B255C0406762B6B7933CCD7D /* Pods-VK-Photo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK-Photo.release.xcconfig"; path = "Target Support Files/Pods-VK-Photo/Pods-VK-Photo.release.xcconfig"; sourceTree = "<group>"; };
+		C3372CA42801FC5400C5C8EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3372CA62802167C00C5C8EC /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		C3372CA82802E55900C5C8EC /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		C3372CAA2802E5C500C5C8EC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C3372CAC2802E68500C5C8EC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C3372CAE280318E200C5C8EC /* NewPhotoUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPhotoUserCell.swift; sourceTree = "<group>"; };
 		C39A6D1727FCB1480043C47A /* VK-Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK-Photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39A6D1A27FCB1480043C47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C39A6D1C27FCB1480043C47A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C39A6D1E27FCB1480043C47A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C39A6D1E27FCB1480043C47A /* AllUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersViewController.swift; sourceTree = "<group>"; };
 		C39A6D2127FCB1480043C47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C39A6D2327FCB14B0043C47A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C39A6D2627FCB14B0043C47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +74,11 @@
 		C39A6D3827FCB14B0043C47A /* VK-PhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK-PhotoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39A6D3C27FCB14B0043C47A /* VK_PhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_PhotoUITests.swift; sourceTree = "<group>"; };
 		C39A6D3E27FCB14B0043C47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ECEA2F27FEDFF900B3570E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C3ECEA3127FEE00B00B3570E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C3ECEA3327FF0A1F00B3570E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CFCA05CE66A2D2F9DE1BEECC /* Pods_VK_Photo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VK_Photo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DBA794FF9BBDC1DD7E253A /* Pods-VK-PhotoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK-PhotoTests.release.xcconfig"; path = "Target Support Files/Pods-VK-PhotoTests/Pods-VK-PhotoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED5EADCEFE1DE85485FB5A7 /* Pods_VK_Photo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA0CDD1F52FA8C94E7AFA42 /* Pods_VK_PhotoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6B6085D1EA21BDB46E13F5 /* Pods_VK_Photo_VK_PhotoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39EF6C50E8093017A152655C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFCA05CE66A2D2F9DE1BEECC /* Pods_VK_Photo.framework */,
+				A56410C5CD0F113BD4831D12 /* Pods_VK_Photo_VK_PhotoUITests.framework */,
+				2F88646E15ADF1272AA12468 /* Pods_VK_PhotoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C39A6D0E27FCB1480043C47A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				C39A6D3027FCB14B0043C47A /* VK-PhotoTests */,
 				C39A6D3B27FCB14B0043C47A /* VK-PhotoUITests */,
 				C39A6D1827FCB1480043C47A /* Products */,
+				D923EFB40DE7A9F0CD38BAFB /* Pods */,
+				39EF6C50E8093017A152655C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +144,13 @@
 		C39A6D1927FCB1480043C47A /* VK-Photo */ = {
 			isa = PBXGroup;
 			children = (
-				C39A6D1A27FCB1480043C47A /* AppDelegate.swift */,
-				C39A6D1C27FCB1480043C47A /* SceneDelegate.swift */,
-				C39A6D1E27FCB1480043C47A /* ViewController.swift */,
-				C39A6D2027FCB1480043C47A /* Main.storyboard */,
-				C39A6D2327FCB14B0043C47A /* Assets.xcassets */,
-				C39A6D2527FCB14B0043C47A /* LaunchScreen.storyboard */,
+				C3ECEA2B27FEDF2300B3570E /* Resources */,
+				C3ECEA2A27FEDF1700B3570E /* ViewModels */,
+				C3ECEA2927FEDF0E00B3570E /* Models */,
+				C3ECEA2827FEDEF500B3570E /* Views */,
+				C3ECEA2D27FEDF5B00B3570E /* Controllers */,
 				C39A6D2827FCB14B0043C47A /* Info.plist */,
+				C3372CA42801FC5400C5C8EC /* GoogleService-Info.plist */,
 			);
 			path = "VK-Photo";
 			sourceTree = "<group>";
@@ -128,6 +173,84 @@
 			path = "VK-PhotoUITests";
 			sourceTree = "<group>";
 		};
+		C3ECEA2827FEDEF500B3570E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3ECEA2C27FEDF2F00B3570E /* Storyboards */,
+				C39A6D2327FCB14B0043C47A /* Assets.xcassets */,
+				C3372CAC2802E68500C5C8EC /* TabBarController.swift */,
+				C3372CAE280318E200C5C8EC /* NewPhotoUserCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3ECEA2927FEDF0E00B3570E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3ECEA2A27FEDF1700B3570E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C3ECEA2B27FEDF2300B3570E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C39A6D1A27FCB1480043C47A /* AppDelegate.swift */,
+				C3372CA62802167C00C5C8EC /* DatabaseManager.swift */,
+				C3372CA82802E55900C5C8EC /* StorageManager.swift */,
+				C3ECEA3327FF0A1F00B3570E /* Extension.swift */,
+				C39A6D1C27FCB1480043C47A /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3ECEA2C27FEDF2F00B3570E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C39A6D2027FCB1480043C47A /* Main.storyboard */,
+				C39A6D2527FCB14B0043C47A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C3ECEA2D27FEDF5B00B3570E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C39A6D1E27FCB1480043C47A /* AllUsersViewController.swift */,
+				C3372CAA2802E5C500C5C8EC /* ProfileViewController.swift */,
+				C3ECEA2E27FEDF7100B3570E /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C3ECEA2E27FEDF7100B3570E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C3ECEA2F27FEDFF900B3570E /* LoginViewController.swift */,
+				C3ECEA3127FEE00B00B3570E /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D923EFB40DE7A9F0CD38BAFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				605AFFBB141E1861AA70A2B4 /* Pods-VK-Photo.debug.xcconfig */,
+				B255C0406762B6B7933CCD7D /* Pods-VK-Photo.release.xcconfig */,
+				89F19CF22CDA436206A821F2 /* Pods-VK-Photo-VK-PhotoUITests.debug.xcconfig */,
+				69EEDB04B6640B4513E126B4 /* Pods-VK-Photo-VK-PhotoUITests.release.xcconfig */,
+				A439EE9C5B772EC253720FD5 /* Pods-VK-PhotoTests.debug.xcconfig */,
+				F8DBA794FF9BBDC1DD7E253A /* Pods-VK-PhotoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39A6D4127FCB14B0043C47A /* Build configuration list for PBXNativeTarget "VK-Photo" */;
 			buildPhases = (
+				AE47D71828A1665BBE872713 /* [CP] Check Pods Manifest.lock */,
 				C39A6D1327FCB1480043C47A /* Sources */,
 				C39A6D1427FCB1480043C47A /* Frameworks */,
 				C39A6D1527FCB1480043C47A /* Resources */,
+				3B57650BF4A144509F2CDE45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39A6D4427FCB14B0043C47A /* Build configuration list for PBXNativeTarget "VK-PhotoTests" */;
 			buildPhases = (
+				27E8576F14B406F6154AAC03 /* [CP] Check Pods Manifest.lock */,
 				C39A6D2927FCB14B0043C47A /* Sources */,
 				C39A6D2A27FCB14B0043C47A /* Frameworks */,
 				C39A6D2B27FCB14B0043C47A /* Resources */,
@@ -170,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39A6D4727FCB14B0043C47A /* Build configuration list for PBXNativeTarget "VK-PhotoUITests" */;
 			buildPhases = (
+				5DF381C1A71522B7BFBE6866 /* [CP] Check Pods Manifest.lock */,
 				C39A6D3427FCB14B0043C47A /* Sources */,
 				C39A6D3527FCB14B0043C47A /* Frameworks */,
 				C39A6D3627FCB14B0043C47A /* Resources */,
+				39426BF245068D27A70C0279 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +363,7 @@
 				C39A6D2727FCB14B0043C47A /* LaunchScreen.storyboard in Resources */,
 				C39A6D2427FCB14B0043C47A /* Assets.xcassets in Resources */,
 				C39A6D2227FCB1480043C47A /* Main.storyboard in Resources */,
+				C3372CA52801FC5400C5C8EC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +383,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27E8576F14B406F6154AAC03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VK-PhotoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39426BF245068D27A70C0279 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VK-Photo-VK-PhotoUITests/Pods-VK-Photo-VK-PhotoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VK-Photo-VK-PhotoUITests/Pods-VK-Photo-VK-PhotoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VK-Photo-VK-PhotoUITests/Pods-VK-Photo-VK-PhotoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B57650BF4A144509F2CDE45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VK-Photo/Pods-VK-Photo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VK-Photo/Pods-VK-Photo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VK-Photo/Pods-VK-Photo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF381C1A71522B7BFBE6866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VK-Photo-VK-PhotoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE47D71828A1665BBE872713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VK-Photo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C39A6D1327FCB1480043C47A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39A6D1F27FCB1480043C47A /* ViewController.swift in Sources */,
+				C3ECEA3027FEDFF900B3570E /* LoginViewController.swift in Sources */,
+				C3ECEA3227FEE00B00B3570E /* RegisterViewController.swift in Sources */,
+				C39A6D1F27FCB1480043C47A /* AllUsersViewController.swift in Sources */,
+				C3372CAD2802E68500C5C8EC /* TabBarController.swift in Sources */,
+				C3ECEA3427FF0A1F00B3570E /* Extension.swift in Sources */,
 				C39A6D1B27FCB1480043C47A /* AppDelegate.swift in Sources */,
 				C39A6D1D27FCB1480043C47A /* SceneDelegate.swift in Sources */,
+				C3372CAB2802E5C500C5C8EC /* ProfileViewController.swift in Sources */,
+				C3372CA72802167C00C5C8EC /* DatabaseManager.swift in Sources */,
+				C3372CAF280318E200C5C8EC /* NewPhotoUserCell.swift in Sources */,
+				C3372CA92802E55900C5C8EC /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,17 +672,19 @@
 		};
 		C39A6D4227FCB14B0043C47A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605AFFBB141E1861AA70A2B4 /* Pods-VK-Photo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G98XJ58X5F;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "VK-Photo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "alpha.VK-Photo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VK-Photo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,17 +692,19 @@
 		};
 		C39A6D4327FCB14B0043C47A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B255C0406762B6B7933CCD7D /* Pods-VK-Photo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G98XJ58X5F;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "VK-Photo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "alpha.VK-Photo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VK-Photo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +712,7 @@
 		};
 		C39A6D4527FCB14B0043C47A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A439EE9C5B772EC253720FD5 /* Pods-VK-PhotoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +735,7 @@
 		};
 		C39A6D4627FCB14B0043C47A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8DBA794FF9BBDC1DD7E253A /* Pods-VK-PhotoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +758,7 @@
 		};
 		C39A6D4827FCB14B0043C47A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F19CF22CDA436206A821F2 /* Pods-VK-Photo-VK-PhotoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +779,7 @@
 		};
 		C39A6D4927FCB14B0043C47A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EEDB04B6640B4513E126B4 /* Pods-VK-Photo-VK-PhotoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

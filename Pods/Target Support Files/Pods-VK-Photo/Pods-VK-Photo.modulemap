@@ -1,0 +1,6 @@
+framework module Pods_VK_Photo {
+  umbrella header "Pods-VK-Photo-umbrella.h"
+
+  export *
+  module * { export * }
+}
